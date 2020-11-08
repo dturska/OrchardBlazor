@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+      <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="App.razor" />
+    <EmbeddedResource Remove="Pages\Counter.razor" />
+    <EmbeddedResource Remove="Pages\Error.cshtml" />
+    <EmbeddedResource Remove="Pages\FetchData.razor" />
+    <EmbeddedResource Remove="Pages\Index.razor" />
+    <EmbeddedResource Remove="Pages\_Host.cshtml" />
+    <EmbeddedResource Remove="Shared\MainLayout.razor" />
+    <EmbeddedResource Remove="Shared\NavMenu.razor" />
+    <EmbeddedResource Remove="Shared\SurveyPrompt.razor" />
+    <EmbeddedResource Remove="_Imports.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="App.razor" />
+    <Content Include="Pages\Counter.razor" />
+    <Content Include="Pages\Error.cshtml" />
+    <Content Include="Pages\FetchData.razor" />
+    <Content Include="Pages\Index.razor" />
+    <Content Include="Pages\_Host.cshtml" />
+    <Content Include="Shared\MainLayout.razor" />
+    <Content Include="Shared\NavMenu.razor" />
+    <Content Include="Shared\SurveyPrompt.razor" />
+    <Content Include="_Imports.razor" />
+  </ItemGroup>
+
+
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-15369" />
+        <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-15369" />
+        <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.0.0-rc2-15369" />
+        <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-15369" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Orchard.Blazor\Orchard.Blazor.csproj" />
+    </ItemGroup>
+
+</Project>

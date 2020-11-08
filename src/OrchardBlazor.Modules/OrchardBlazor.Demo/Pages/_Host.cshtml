@@ -1,0 +1,25 @@
+﻿@page "/OrchardBlazor.Demo/"
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<zone name="basehref">
+    <base href="@Href("~/OrchardBlazor.Demo/")" />
+</zone>
+
+<app>
+    <component type="typeof(OrchardBlazor.Demo.App)" render-mode="ServerPrerendered" />
+</app>
+
+<div id="blazor-error-ui">
+    <environment include="Staging,Production">
+        An error has occurred. This application may no longer respond until reloaded.
+    </environment>
+    <environment include="Development">
+        An unhandled exception has occurred. See browser dev tools for details.
+    </environment>
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+<zone name="Footer">
+    <script src="../_framework/blazor.server.js"></script>
+</zone>

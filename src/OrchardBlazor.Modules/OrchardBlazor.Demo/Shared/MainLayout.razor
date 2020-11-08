@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+@*
+    Carl Says: The main layout is where you can define a UI template for every page.
+            That said, you do NOT need to have a template at all. Simply add @Body
+            here, and then you can create components for any page template you'd like
+            to use. We will do this in the CSS episode(s) of Blazor Train.
+
+            Notice that we're displaying the <NavMenu /> component in the sidebar,
+            while the main area of the page has a header and a main body.
+
+*@
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
