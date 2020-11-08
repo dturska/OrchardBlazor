@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrchardBlazor.Themes", "Orc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSafeMode", "src\OrchardBlazor.Themes\BlazorSafeMode\BlazorSafeMode.csproj", "{5B83282E-F7D4-4277-91E4-8BA905306623}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardBlazor.ButtonFun", "src\OrchardBlazor.Modules\OrchardBlazor.ButtonFun\OrchardBlazor.ButtonFun.csproj", "{567D316B-1196-4AAA-A316-DC76C3D8221E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,18 @@ Global
 		{5B83282E-F7D4-4277-91E4-8BA905306623}.Release|x64.Build.0 = Release|Any CPU
 		{5B83282E-F7D4-4277-91E4-8BA905306623}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B83282E-F7D4-4277-91E4-8BA905306623}.Release|x86.Build.0 = Release|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Debug|x64.Build.0 = Debug|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Debug|x86.Build.0 = Debug|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Release|x64.ActiveCfg = Release|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Release|x64.Build.0 = Release|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Release|x86.ActiveCfg = Release|Any CPU
+		{567D316B-1196-4AAA-A316-DC76C3D8221E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +130,7 @@ Global
 		{974C558A-B323-4A86-8217-25E736F73DCE} = {A4548AE3-FBA5-43B5-9D63-BA54F2682D1E}
 		{385555E4-FC59-47FF-A2B2-F6861C7A0A75} = {64642C2B-D55A-44E1-AED3-74770668ADA9}
 		{5B83282E-F7D4-4277-91E4-8BA905306623} = {385555E4-FC59-47FF-A2B2-F6861C7A0A75}
+		{567D316B-1196-4AAA-A316-DC76C3D8221E} = {A4548AE3-FBA5-43B5-9D63-BA54F2682D1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8984AD2-0794-459D-8486-3B00F5E772A5}

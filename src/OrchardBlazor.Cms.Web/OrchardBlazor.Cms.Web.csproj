@@ -13,12 +13,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-15369" />
-    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-15369" />
+    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-15402" />
+    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-15402" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\OrchardBlazor.Modules\Orchard.Blazor\Orchard.Blazor.csproj" />
+    <ProjectReference Include="..\OrchardBlazor.Modules\OrchardBlazor.ButtonFun\OrchardBlazor.ButtonFun.csproj" />
     <ProjectReference Include="..\OrchardBlazor.Modules\OrchardBlazor.Demo2\OrchardBlazor.Demo2.csproj" />
     <ProjectReference Include="..\OrchardBlazor.Modules\OrchardBlazor.Demo\OrchardBlazor.Demo.csproj" />
     <ProjectReference Include="..\OrchardBlazor.Modules\OrchardBlazor.Razor1\OrchardBlazor.Razor1.csproj" />
